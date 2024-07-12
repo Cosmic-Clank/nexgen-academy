@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles here */
+
+.variable-fontsize-medium {
+	font-size: 5vw;
+}
+
+.variable-fontsize-small {
+	font-size: 3vw;
+}
+
+.variable-fontsize-xsmall {
+	font-size: 2vw;
+}
+
+.white-bg {
+	background-color: #f6f8fe;
+}
+
+.variable-fontsize-big-2 {
+	font-size: 12vw;
+}
+
+.text-container {
+	width: 90%;
+	max-width: 104rem;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+.text-container-wide {
+	width: 95%;
+	max-width: 104rem;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+@media screen and (max-width: 767px) {
+	.text-container {
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.about-images > * {
+	overflow: hidden;
+	position: absolute;
+
+	max-width: 300px;
+	width: 20%;
+}
+
+.about-images .one {
+	top: 10%;
+	left: 28%;
+}
+
+.about-images .two {
+	top: 70%;
+	left: 8%;
+}
+
+.about-images .three {
+	top: 70%;
+	left: 75%;
+}
+
+.about-images .four {
+	top: 18%;
+	left: 80%;
+}
+
+.about-2-images > * {
+	overflow: hidden;
+	position: absolute;
+
+	max-width: 300px;
+	width: 20%;
+}
+
+.about-2-images .one {
+	top: 10%;
+	left: 28%;
+}
+
+.about-2-images .two {
+	top: 70%;
+	left: 8%;
+}
+
+.about-2-images .three {
+	top: 70%;
+	left: 75%;
+}
+
+.about-2-images .four {
+	top: 18%;
+	left: 80%;
+}
+
+.variable-fontsize-big {
+	font-size: 6vw;
+}
+
+.fontlines {
+	border-top: 1px solid #bdd7ee;
+	border-bottom: 1px solid #bdd7ee;
+	height: 3.2vw;
+	position: absolute;
+	top: 3.5vw;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+}
+
+.fontlines2 {
+	border-top: 1px solid #bdd7ee;
+	border-bottom: 1px solid #bdd7ee;
+	height: 6.3vw;
+	position: absolute;
+	top: 7.1vw;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+}
+
+.fontlines3 {
+	border-top: 1px solid #bdd7ee;
+	border-bottom: 1px solid #bdd7ee;
+	height: 3.3vw;
+	position: absolute;
+	top: 3.5vw;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+}
+
+.fontlines4 {
+	border-top: 1px solid #bdd7ee;
+	border-bottom: 1px solid #bdd7ee;
+	height: 3.2vw;
+	position: absolute;
+	top: 21.5vw;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+}
+
+.fontlines5 {
+	border-top: 1px solid #bdd7ee;
+	border-bottom: 1px solid #bdd7ee;
+	height: 3.2vw;
+	position: absolute;
+	top: 12.5vw;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+}
+
+.variable-fontsize-mid {
+	font-size: 2.5vw;
+}
+
+@media screen and (max-width: 1023px) {
+	.variable-fontsize-mid {
+		font-size: 5.5vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.fontlines {
+		height: 4.4vw;
+		top: 4.6vw;
+	}
+
+	.variable-fontsize-big {
+		font-size: 8vw;
+	}
+
+	.fontlines3 {
+		border-top: 1px solid #bdd7ee;
+		border-bottom: 1px solid #bdd7ee;
+		height: 4.3vw;
+		position: absolute;
+		top: 4.5vw;
+		left: 0%;
+		right: 0%;
+		z-index: -1;
+	}
+
+	.fontlines4 {
+		border-top: 1px solid #bdd7ee;
+		border-bottom: 1px solid #bdd7ee;
+		height: 4vw;
+		position: absolute;
+		top: 29vw;
+		left: 0%;
+		right: 0%;
+		z-index: -1;
+	}
+
+	.fontlines5 {
+		border-top: 1px solid #bdd7ee;
+		border-bottom: 1px solid #bdd7ee;
+		height: 4.4vw;
+		position: absolute;
+		top: 16.6vw;
+		left: 0%;
+		right: 0%;
+		z-index: -1;
+	}
+}
+
+.parallax-bg {
+	background-image: url("assets/images/nexgenacademy.png");
+	/* Replace with your image URL */
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #0f1412;
+	height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+	.parallax-bg {
+		background-image: url("assets/images/nexgenacademy-small.png");
+		/* Replace with your image URL */
+		background-attachment: fixed;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #0f1412;
+		height: 70vh;
+	}
+}
+
+.black-bg {
+	background-color: #0f1412;
+}
+
+.purple-bg {
+	background-color: #020617;
+}
+
+.off-white-bg {
+	background-color: #f9fafb;
+}
+
+.ice-blue-text {
+	color: #abb4c7;
+}
+
+.boujee-text {
+	--bg-size: 400%;
+	--color-one: hsl(186, 100%, 43%);
+	--color-two: hsl(211, 90%, 55%);
+
+	background: linear-gradient(110deg, var(--color-one), var(--color-two), var(--color-one)) 0 0 / var(--bg-size) 100%;
+	animation: move-bg 10s infinite linear reverse;
+	color: transparent;
+	background-clip: text;
+}
+
+@keyframes move-bg {
+	to {
+		background-position: var(--bg-size) 0;
+	}
+}
+
+#activities {
+	background-image: url("assets/images/burjkhalifa.jpg");
+	background-attachment: fixed;
+	background-size: fill;
+	background-position: center;
+	background-repeat: no-repeat;
+}

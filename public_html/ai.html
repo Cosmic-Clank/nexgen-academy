@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 4.0 - Nexgen</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.cdnfonts.com/css/beatrice-display-trial" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+    <script src="script5.js" defer></script>
+</head>
+
+<body class="overflow-x-hidden bg-white">
+    <header class="fixed top-0 left-0 right-0 z-40">
+        <div class="lg:py-4 lg:px-10 py-4">
+            <nav class="">
+                <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+                    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="assets/images/logo.png" class="h-8" alt="Nexgen Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                    </a>
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-10"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M5 7h15M9 13h15" />
+                        </svg>
+                    </button>
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul
+                            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent bg-gray-800">
+                            <li>
+                                <a href="index.html"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="education.html"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">Education 4.0</a>
+                            </li>
+                            <li>
+                                <a href="ai.html"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">AI 4.0</a>
+                            </li>
+                            <li>
+                                <a href="industry.html"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">Industry 4.0</a>
+                            </li>
+                            <li>
+                                <a href="industry.html#mission"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">About us</a>
+                            </li>
+                            <li>
+                                <a href="news.html"
+                                    class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+                                    aria-current="page">News</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@nexgenacademy.ae"
+                                    class="block p-2 underline hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent text-center"
+                                    aria-current="page">AI-Powered Summer Camp:<br>Registration Open</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="industry" class="slidein flex flex-col h-screen justify-center snap-end">
+            <div
+                class="slidein text-container-wide font-fancyText flex text-4xl md:text-7xl text-center justify-around">
+                NEXGEN
+            </div>
+            <div class="slidein flex flex-col w-screen py-4">
+                <div class="relative mission md:py-30 md:px-10 flex flex-col items-center text-center pb-6">
+
+                    <h2 class="font-bigTitleCleanText variable-fontsize-big font-medium w-full">AI
+                        <span class="boujee-text relative"><span class="absolute boujee-text blur-md">
+                                4.0</span>4.0</span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="flex flex-col justify-center my-24 snap-end">
+            <div
+                class="slidein text-container-wide font-fancyText flex text-2xl md:text-3xl text-center  justify-around">
+                NEXGEN AI 4.0
+            </div>
+            <div class="slidein flex flex-col w-screen py-1">
+                <div class="relative mission px-4 md:py-30 md:px-10 flex-1 text-center pb-6">
+                    <div class="fontlines2"></div>
+                    <h2 class="font-bigTitleCleanText variable-fontsize-big-2 mb-8">Mission
+                    </h2>
+                    <p class="text-container text-xl md:text-2xl font-bigTitleCleanText">
+                        To Lead the World’s Educational Institutions Transition
+                        <br class="hidden xl:block">
+                        to AI-Powered Education 4.0
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-2" class="relative flex flex-col justify-center snap-end">
+            <div
+                class="slidein text-container font-fancyText flex text-2xl md:text-3xl text-center italic p-6 justify-around">
+                NEXGEN is leading the Global Transition to AI-Powered Education 4.0
+                <br class="hidden xl:block">
+                across Schools through:
+            </div>
+
+            <div class="md:block hidden about-2-images absolute w-full h-full top-0 left-0">
+                <div class="test one"><img class="object-cover w-full" src="assets/images/test1.png" /></div>
+                <div class="test two"><img class="object-cover w-full" src="assets/images/test2.jpg" /></div>
+                <div class="test three"><img class="object-cover w-full" src="assets/images/test3.jpg" /></div>
+                <div class="test four"><img class="object-cover w-full" src="assets/images/test4.jpg" /></div>
+
+                <div class="evaluate one"><img class="object-cover w-full" src="assets/images/evaluate1.jpg" />
+                </div>
+                <div class="evaluate two"><img class="object-cover w-full" src="assets/images/evaluate2.png" />
+                </div>
+                <div class="evaluate three"><img class="object-cover w-full" src="assets/images/evaluate3.jpg" />
+                </div>
+                <div class="evaluate four"><img class="object-cover w-full" src="assets/images/evaluate4.png" />
+                </div>
+
+                <div class="adopt one"><img class="object-cover w-full" src="assets/images/adopt1.jpg" /></div>
+                <div class="adopt two"><img class="object-cover w-full" src="assets/images/adopt2.jpg" /></div>
+                <div class="adopt three"><img class="object-cover w-full" src="assets/images/adopt3.jpg" /></div>
+                <div class="adopt four"><img class="object-cover w-full" src="assets/images/adopt4.png" /></div>
+            </div>
+
+            <div class="flex md:flex-row flex-col w-screen border-gray-300 border py-1 z-10">
+                <div
+                    class="font-bigTitleCleanText about-2 test md:py-40 md:px-10 flex-1 text-center border-gray-300 border py-2 ">
+                    <h2 class="variable-fontsize-big">Test</h2>
+                    <p class="text-base font-bold text-gray-500">Experience AI-Powered Education:</p>
+                    <p class="text-base font-bold text-gray-500">AI LMS, AI Tutor, AI Assessments</p>
+                    <p class="text-base font-bold text-gray-500">AI Personalized Feedback</p>
+                    <p class="text-base font-bold text-gray-500">Intelligent Resource Recommendation</p>
+                    <p class="text-base font-bold text-gray-500">AI Virtual Teacher and AI Multilingual</p>
+                    <p class="text-base font-bold text-gray-500">AI Syllabus, Quiz, Rubric Generator</p>
+                </div>
+                <div
+                    class="font-bigTitleCleanText about-2 evaluate md:py-40 md:px-10 flex-1 text-center border-gray-300 border py-2">
+                    <h2 class="variable-fontsize-big">Evaluate</h2>
+                    <p class="text-base font-bold text-gray-500">Evaluate Impact of AI Assessments &</p>
+                    <p class="text-base font-bold text-gray-500">Feedback & Advanced AI-Driven Features </p>
+                    <p class="text-base font-bold text-gray-500">for Students </p>
+                    <p class="text-base font-bold text-gray-500">Analyze AI-Powered Support Tools &</p>
+                    <p class="text-base font-bold text-gray-500">And time saving Teaching Assistance</p>
+                    <p class="text-base font-bold text-gray-500">for Educators</p>
+                </div>
+                <div
+                    class="font-bigTitleCleanText about-2 adopt md:py-40 md:px-10 flex-1 text-center border-gray-300 border py-2">
+                    <h2 class=" variable-fontsize-big">Integrate</h2>
+                    <p class="text-base font-bold text-gray-500">Integrate AI into Your LMS Fully</p>
+                    <p class="text-base font-bold text-gray-500">Customized to School needs</p>
+                    <p class="text-base font-bold text-gray-500">with dedicated school mobile app</p>
+                    <p class="text-base font-bold text-gray-500">or Adopt Our AI-Powered LMS</p>
+                    <p class="text-base font-bold text-gray-500">Implement Education 4.0 Frameworks</p>
+                </div>
+            </div>
+            </div>
+            <div
+                class="slidein font-fancyText flex text-2xl md:text-3xl text-center italic py-8 justify-around border-b border-b-gray-300 p-4">
+                Empower Your Students & Be at the Forefront of AI-Powered Education
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center py-12">
+            <div class="container p-4 font-bigTitleCleanText">
+                <h1 class="slidein text-3xl font-bold mb-6">NEXEGN AI 4.0:<br>Tailored AI Solutions for<br> Educational
+                    Transformation
+                </h1>
+                <div class="slidein flex flex-col md:flex-row">
+                    <!-- BESPOKE SOLUTIONS -->
+                    <div class="border border-black p-4 flex-1">
+                        <h2 class="text-xl font-semibold mb-4">● Customizable Solutions</h2>
+                        <div class="flex justify-center mb-4 p-12">
+                            <img src="assets/images/coding.gif" alt="Customizable Solutions" class="h-36 w-36">
+                        </div>
+                        <p>Tailor-made AI-powered learning solutions that address the unique challenges of schools and
+                            universities and align with national educational goals</p>
+                    </div>
+                    <!-- GLOBAL COLLABORATION -->
+                    <div class="md:border-y md:border-x-0 border-x border-black p-4 flex-1">
+                        <h2 class="text-xl font-semibold mb-4">● Institutional Collaborations</h2>
+                        <div class="flex justify-center mb-4  p-12">
+                            <img src="assets/images/graduation.gif" alt="Institutional Collaborations"
+                                class="h-36 w-36">
+                        </div>
+                        <p>Collaborations with leading educational institutions and government bodies to research and
+                            deploy AI solutions for personalized learning</p>
+                    </div>
+                    <!-- SCALE & SECURITY -->
+                    <div class="border border-black p-4 flex-1">
+                        <h2 class="text-xl font-semibold mb-4">● Scale & Security</h2>
+                        <div class="flex justify-center mb-4  p-12">
+                            <img src="assets/images/presentation.gif" alt="Scale & Security" class="h-36 w-36">
+                        </div>
+                        <p>Scalable solutions designed for seamless integration with diverse learning management systems
+                            (LMS), ensuring a secure and impactful learning experience for all students</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aifeatures" class="py-12">
+            <div class="flex flex-col gap-6 justify-center items-center font-bigTitleCleanText">
+                <div class="flex justify-center items-center">
+                    <h2 class="text-4xl font-bold">AI Features</h2>
+                </div>
+                <div class="flex gap-8 justify-center items-center flex-col lg:flex-row p-6">
+                    <div class="flex flex-col gap-2 justify-center items-center">
+                        <img class="p-4 w-32 h-32" src="assets/images/artificial-intellegence.png" alt="">
+                        <h3 class="text-xl font-bold text-center">AI Assessment</h3>
+                        <p class="text-sm text-center">Accelerates Academic Growth by providing personalized feedback
+                            based on comprehensive evaluations. Using detailed rubrics and grading criteria, AI
+                            accurately assesses students' 5 core competencies: understanding, application, critical
+                            thinking, offering actionable insights for improvement
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-center items-center">
+                        <img class="p-4 w-32 h-32" src="assets/images/management.png" alt="">
+                        <h3 class="text-xl font-bold text-center">AI Feedback</h3>
+                        <p class="text-sm text-center">Students receive personalized AI feedback & critical insights on
+                            assessment performance, AI identifies misconceptions, suggests areas to improve, finds
+                            knowledge gaps, clarifies misunderstandings, and highlights strengths, enabling students to
+                            recognize, understand, and self-correct mistakes
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-center items-center">
+                        <img class="p-4 w-32 h-32" src="assets/images/bot.png" alt="">
+                        <h3 class="text-xl font-bold text-center">AI Tutor</h3>
+                        <p class="text-sm text-center">AI tutor provides students with
+                            instant answers, simplified explanations,
+                            examples, step-by-step guidance,
+                            intelligent resource recommendations, and extra practice
+                            It's a safe space for natural conversations in
+                            multiple languages, acting as an expert guide
+                            always by their side
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-center items-center">
+                        <img class="p-4 w-32 h-32" src="assets/images/artificial-intelligence-book.png" alt="">
+                        <h3 class="text-xl font-bold text-center">AI Recommendations</h3>
+                        <p class="text-sm text-center">Intelligent Resource Recommendation
+                            Provides timely support by understanding
+                            each student's queries, areas of difficulty,
+                            topics they struggle with, recommending
+                            relevant resources matching individual
+                            learning styles (Visual, Auditory, & Reading
+                            Learners), resulting in increased engagement
+                            and faster progress
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-center items-center">
+                        <img class="p-4 w-32 h-32" src="assets/images/algorithm.png" alt="">
+                        <h3 class="text-xl font-bold text-center">AI Multilingual</h3>
+                        <p class="text-sm text-center">Our AI-powered learning suite supports
+                            a wide array of languages, including Arabic
+                            and English, ensuring an inclusive and
+                            accessible learning experience for diverse learners
+                            All features from personalized tutoring to
+                            AI assessments, available in multiple languages
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="industry" class="flex flex-col justify-center my-24 snap-end">
+            <div class="slidein text-container-wide font-fancyText flex text-3xl text-center justify-around">
+                AI Solutions Personalized for Every Student, in Every Subject
+            </div>
+            <div class="slidein flex flex-col w-screen py-1">
+                <div class="relative mission md:py-30 md:px-10 flex flex-col items-center text-center pb-6">
+                    <div class="fontlines"></div>
+                    <h2 class="font-bigTitleCleanText variable-fontsize-big mb-8 font-semibold w-full">
+                        Academic Improvement
+                    </h2>
+                    <!-- <p class="text-base font-bigTitleCleanText font-bold text-gray-500 uppercase mb-4">The Future of Education</p> -->
+                    <p class="mx-5 max-w-screen-xl text-xl md:text-2xl font-bigTitleCleanText">Measurable Results Driven
+                        by Tailored AI Solutions that cater to
+                        <br class="hidden xl:block">individual learning styles and needs across all subjects, ensuring
+                        deep
+                        <br class="hidden xl:block">comprehension, retention, and fostering confident learners with
+                        <br class="hidden xl:block">consistent improvement in test scores and college readiness
+                    </p>
+                </div>
+        </section>
+
+        <section id="table" class="py-12">
+            <div class="relative overflow-x-auto p-6 font-bigTitleCleanText">
+                <div class="flex mb-8">
+                    <h2 class="text-5xl font-bold">AI-Powered Learning Solutions</h2>
+                </div>
+                <table class="w-full text-sm text-left">
+                    <thead class="text-base">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 whitespace-nowrap">
+                                Capabilities
+                            </th>
+                            <th scope="col" class="px-6 py-3 whitespace-nowrap">
+                                Personalized Learning
+                            </th>
+                            <th scope="col" class="px-6 py-3 whitespace-nowrap">
+                                Student Benefits
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-t border-black">
+                            <td class="px-1 py-4 whitespace-nowrap">
+                                <h3 class="text-xl font-semibold">AI Assessment</h3>
+                                <p class="text-lg">AI Conducts accurate and comprehensive evaluations<br>based on
+                                    detailed
+                                    rubrics, grading criteria, and point<br>
+                                    breakdowns, precisely assessing the five core<br>competencies
+                                </p>
+                            </td>
+                            <td class="pl-8 pr-2 py-4">
+                                <ul class="text-lg list-disc whitespace-nowrap">
+                                    <li>Understanding</li>
+                                    <li>Application</li>
+                                    <li>Critical Thinking</li>
+                                    <li>Creativity</li>
+                                    <li>Organization and Clarity</li>
+                                </ul>
+                            </td>
+                            <td class="text-lg px-1 py-4 whitespace-nowrap">
+                                Targeted AI feedback pinpoints strengths<br> and weaknesses across
+                                five core competencies,<br>providing students with insights to identify
+                                and<br>address areas for growth and academic improvement
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-t border-black">
+                            <td class="px-1 py-4 whitespace-nowrap">
+                                <h3 class="text-xl font-semibold">AI Feedback</h3>
+                                <p class="text-lg">Personalized AI feedback provides tailored guidance<br>
+                                    to progress student academic journey, revealing<br> misconceptions,
+                                    weaknesses & highlights areas<br> of strength within the curriculum
+                                </p>
+                            </td>
+                            <td class="pl-8 pr-2 py-4">
+                                <ul class="text-lg list-disc whitespace-nowrap">
+                                    <li>Identifies Misconceptions</li>
+                                    <li>Suggests Areas to Improve</li>
+                                    <li>Finds Knowledge Gaps</li>
+                                    <li>Clarifies Major Misunderstandings</li>
+                                    <li>Highlights Strengths</li>
+                                </ul>
+                            </td>
+                            <td class="text-lg px-1 py-4 whitespace-nowrap">
+                                AI Personalized feedback fosters effective<br>academic
+                                improvement by providing critical insights<br>on student test performance,
+                                enabling students to<br> recognize,understand and self-correct mistakes
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-t border-black">
+                            <td class="px-1 py-4 whitespace-nowrap">
+                                <h3 class="text-xl font-semibold">AI TUTOR</h3>
+                                <p class="text-lg">Safe & friendly learning companion/Expert that<br>provides
+                                    instant and accurate support, creating <br>an interactive,
+                                    engaging learning environment<br>& promoting independent problem-solving
+                                </p>
+                            </td>
+                            <td class="pl-8 pr-2 py-4">
+                                <ul class="text-lg list-disc whitespace-nowrap">
+                                    <li>Instant & accurate answers</li>
+                                    <li>Trained for safe conversations </li>
+                                    <li>Simple explanations of complex topics </li>
+                                    <li>Step by Step Guidance</li>
+                                    <li>24/7 Availability</li>
+                                </ul>
+                            </td>
+                            <td class="text-lg px-1 py-4 whitespace-nowrap">
+                                Consistent access to secure AI Tutor accelerates<br>learning,
+                                enhances comprehension, boosts<br>engagement,and prevents
+                                misconceptions, leading<br>to a personalized and effective learning experience
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-t border-black">
+                            <td class="px-1 py-4 whitespace-nowrap">
+                                <h3 class="text-xl font-semibold">AI Recommendations</h3>
+                                <p class="text-lg">AI understands each student's queries, areas<br>of difficulty, topics
+                                    they struggle with, and<br>need for further learning resources through<br>NLP,
+                                    recommending content that matches<br>their learning style
+                                </p>
+                            </td>
+                            <td class="pl-8 pr-2 py-4">
+                                <ul class="text-lg list-disc whitespace-nowrap">
+                                    <li>Recommends per student's learning style</li>
+                                    <li>Visual, Auditory & Reading Learners</li>
+                                    <li>Diverse Learning Resource</li>
+                                    <li>Accelerated Study Time</li>
+                                    <li>Real-Time Adaptive Support</li>
+                                </ul>
+                            </td>
+                            <td class="text-lg px-1 py-4 whitespace-nowrap">
+                                Timely recommendations target students' struggle<br>areas with personalized resources
+                                matching their<br>learning styles and interests,resulting in increased<br>engagement,
+                                faster progress, and productive<br>study habits
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex justify-center items-center mt-8">
+                <a href="mailto:info@nexgenacademy.ae"
+                    class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32">Explore
+                    Custom AI Solutions</a>
+            </div>
+        </section>
+
+        <section id="vision" class="flex flex-col justify-center my-24 snap-end">
+            <div
+                class="slidein text-container-wide font-fancyText flex text-2xl md:text-3xl text-center  justify-around">
+                NEXGEN AI 4.0
+            </div>
+            <div class="slidein flex flex-col w-screen py-1">
+                <div class="relative mission px-4 md:py-30 md:px-10 flex-1 text-center pb-6">
+                    <div class="fontlines2"></div>
+                    <h2 class="font-bigTitleCleanText variable-fontsize-big-2 mb-8">Vision
+                    </h2>
+                    <p class="text-container text-xl md:text-2xl font-bigTitleCleanText">
+                        To Empower Educational Institutions Globally with ethical and safe
+                        <br class="hidden xl:block">
+                        AI-powered learning systems to Revolutionize Education
+                        <br class="hidden xl:block">
+                        for the upcoming AI era
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-id" class="py-12">
+            <div class="flex flex-col justify-center items-center gap-8 overflow-x-auto p-6 font-bigTitleCleanText">
+                <h2 class="text-3xl md:text-5xl font-bold text-center max-w-5xl">Customizable AI Integration
+                    for Schools
+                </h2>
+                <p class="text-xl text-center">We tailor AI solutions to seamlessly integrate with your curriculum <br
+                        class="hidden xl:block">
+                    aligning with schools' specific learning goals, grades, subjects, and student levels <br
+                        class="hidden xl:block">
+                    We collaborate closely with your educators to ensure accurate and comprehensive <br
+                        class="hidden xl:block">
+                    representation of each subject
+                </p>
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center font-bigTitleCleanText">
+            <div class="relative hidden lg:flex h-[90vh] px-20 py-16">
+                <div class="absolute top-20 bottom-16 border border-black"></div>
+                <div class="absolute rotate-45 top-20 h-4 origin-top border border-black"></div>
+                <div class="absolute -rotate-45 top-20 h-4 origin-top border border-black"></div>
+                <div class="absolute bottom-16 left-[80px] right-[80px] border border-black"></div>
+                <div class="absolute origin-right rotate-45 w-4 right-[80px] bottom-[64px] border border-black"></div>
+                <div class="absolute origin-right -rotate-45 w-4 right-[80px] bottom-[64px] border border-black"></div>
+                <div class="absolute -rotate-90 top-1/2 left-2 p-6 bg-white">SCALABILITY</div>
+                <div class="absolute bottom-7 right-1/2 p-6 bg-white">CUSTOMIZATION</div>
+                <div
+                    class="flex gap-2 flex-col items-start pl-[70%] pt-12 m-4 relative bg-[#e6e4dd] w-full rounded-3xl pr-12">
+                    <a class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">3. Intelligent and Enhanced</a>
+                    <h3 class="text-xl font-bold">Personalized learning</h3>
+                    <p class="text-lg">AI-Powered learning drives increased student engagement, academic
+                        achievement, and overall development. Educators gain valuable time and resources,
+                        fostering a more effective and personalized learning environment</p>
+                    <div
+                        class="flex gap-2 flex-col items-start pl-[38%] pt-12 pr-12 bg-[#f0efea] absolute bottom-4 left-4 w-2/3 h-4/5 rounded-3xl">
+                        <a class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">2. Accurate and Effective</a>
+                        <h3 class="text-xl font-bold">Customization</h3>
+                        <p class="text-lg">We fully customize AI solutions to meet your school's unique requirements,
+                            accurately matching the AI-Powered learning content to your specific grade, subject, student
+                            level, and learning objectives</p>
+                        <div
+                            class="flex gap-2 flex-col items-start bg-[#fafaf8] absolute w-1/2 h-4/5 bottom-4 left-4 p-6 pt-12 rounded-3xl">
+                            <a class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">1. Swift and Seamless</a>
+                            <h3 class="text-xl font-bold">Integration</h3>
+                            <p class="text-lg">Rapid and Scalable integration with diverse Learning Management Systems
+                                (LMS) and
+                                educational platforms, ensuring a smooth and efficient experience for all users
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block lg:hidden space-y-6 p-6">
+                <div class="flex flex-col gap-4 items-start bg-[#fafaf8] rounded-lg shadow-xl p-12">
+                    <div class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">3. Intelligent and Enhanced</div>
+                    <h3 class="text-2xl font-bold ">Personalized learning</h3>
+                    <p class="text-lg">AI-Powered learning drives increased student engagement, academic achievement,
+                        and overall
+                        development. Educators gain valuable time and resources, fostering a more effective and
+                        personalized learning environment
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-start bg-[#f0efea] rounded-lg shadow-xl p-12">
+                    <div class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">2. Accurate and Effective</div>
+                    <h3 class="text-2xl font-bold ">Customization</h3>
+                    <p class="text-lg">We fully customize AI solutions to meet your school's unique requirements,
+                        accurately matching
+                        the AI-Powered learning content to your specific grade, subject, student level, and learning
+                        objectives</p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-start bg-[#e6e4dd] rounded-lg shadow-xl p-12">
+                    <div class="text-lg bg-blue-500 text-white py-1 px-4 rounded-3xl">1. Swift and Seamless</div>
+                    <h3 class="text-2xl font-bold ">Integration</h3>
+                    <p class="text-lg">Rapid and Scalable integration with diverse Learning Management Systems (LMS) and
+                        educational
+                        platforms, ensuring a smooth and efficient experience for all users</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai" class="flex justify-center items-center p-8">
+            <div class="flex max-w-6xl flex-col gap-10 font-bigTitleCleanText px-6">
+                <div class="slidein flex md:flex-row my-4 flex-col gap-12 justify-center items-center">
+                    <div class="flex-1 rounded-xl overflow-hidden shadow-2xl">
+                        <video muted autoplay loop src="assets/videos/brain.mp4"></video>
+                    </div>
+                    <div class="flex flex-col gap-6 flex-1 font-bigTitleCleanText">
+                        <h2 class="text-2xl font-bold">School's Custom AI-Powered Learning App
+                        </h2>
+                        <h3 class="text-xl font-bold">A Fully White-Labeled AI-Powered Learning App for Your Students
+                            and Educators with Advanced AI Capabilities Tailored for Specific Grades and Subjects
+                        </h3>
+                        <div class="flex gap-4 items-center">
+                            <!-- <img class="w-10 h-10" src="assets/images/aiassessment.svg" alt=""> -->
+                            <ul class="list-disc space-y-4">
+                                <li class="text-sm"><span class="font-bold">Grade-Level Alignment:</span> Tailored AI
+                                    solutions that are
+                                    developmentally appropriate for specific grade levels, from kindergarten through
+                                    Year 13</li>
+                                <li class="text-sm"><span class="font-bold">Subject Matter:</span> AI-powered Learning
+                                    that align with the
+                                    specific
+                                    content and skills of each subject, from math and science to language arts and
+                                    social studies
+                                </li>
+                                <li class="text-sm"><span class="font-bold">Student-Level Differentiation:</span> We
+                                    create AI-powered
+                                    learning
+                                    experiences tailored to your students' unique needs and abilities, ensuring optimal
+                                    engagement and outcomes
+                                </li>
+                                <li class="text-sm"><span class="font-bold">Addressing Unique
+                                        Challenges: </span>Specifically tailored to
+                                    tackle
+                                    challenges like improving student engagement, enhancing assessment practices,
+                                    streamlining learning content development & improving academic performance </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center">
+            <div class="flex flex-col gap-12 justify-self-center items-center lg:p-44 p-8">
+                <div
+                    class="flex gap-12 flex-col md:flex-row justify-around items-center lg:mr-36 bg-[#f0efea] p-12 rounded-xl">
+                    <div class="flex gap-4 flex-1 flex-col justify-center items-start">
+                        <h2 class="text-xl font-semibold">For Educators</h2>
+                        <p>Accurate, curriculum-aligned, AI-powered subject learning saves educators valuable time and
+                            reduce the intensive work required to deliver personalized feedback on assessments, tutoring
+                            and resource recommendations to each student
+                        </p>
+                        <a class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32"
+                            href="mailto:info@nexgenacademy.ae">Learn More</a>
+                    </div>
+                    <div class="flex flex-1 justify-center items-center"><img class="w-64"
+                            src="https://images.pexels.com/photos/6937871/pexels-photo-6937871.jpeg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="flex gap-12 flex-col md:flex-row justify-around items-center lg:ml-36 bg-black p-12 rounded-xl">
+                    <div class="flex gap-4 flex-1 flex-col justify-center items-start text-white">
+                        <h2 class="text-xl font-semibold">For Students </h2>
+                        <p>AI-powered learning with Personalized and Targeted Feedback transforms the educational
+                            journey, fostering mastery of subjects, increased engagement, and improved academic outcomes
+                        </p>
+                        <a class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32"
+                            href="mailto:info@nexgenacademy.ae">Explore Custom AI Solutions </a>
+                    </div>
+                    <div class="flex flex-1 justify-center items-center"><img class="w-64"
+                            src="https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="schoolapp" class="flex justify-center items-center p-12">
+            <div class="flex max-w-6xl flex-col gap-10 font-bigTitleCleanText">
+                <div class="slidein flex md:flex-row my-4 flex-col gap-12 justify-center items-center">
+                    <div class="flex-1 rounded-xl overflow-hidden shadow-2xl">
+                        <img src="assets/images/tablet.png"></img>
+                    </div>
+                    <div class="flex flex-col items-start gap-6 flex-1 font-bigTitleCleanText">
+                        <h2 class="text-2xl font-bold">AI-Powered learning School App
+                        </h2>
+                        <h3 class="text-xl font-bold">Unlock Each Student's Potential with AI Personalized Learning for
+                            Every Subject: Achieve Transformative Academic Results
+                        </h3>
+                        <div class="flex gap-4 items-center">
+                            <!-- <img class="w-10 h-10" src="assets/images/aiassessment.svg" alt=""> -->
+                            <p>Elevate student comprehension and mastery of each subject, while streamlining
+                                administrative tasks, with your school's own AI-powered app featuring tailored AI
+                                assessments, AI feedback, AI tutoring & intelligent resource recommendations, AI-powered
+                                grading, automated Certificates, data-driven insights and streamlined communication
+                                between teachers and students</p>
+                        </div>
+                        <a class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32"
+                            href="mailto:info@nexgenacademy.ae">Available in Playstore & Appstore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center">
+            <div class="bg-[#f0efea] p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-3xl font-bold">Education Transformed In the AI Era</h2>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-2">AI-Powered Learning App</h3>
+                        <div class="mb-2">A centralized hub for accessing learning materials and
+                            assignments anytime, anywhere with Advanced AI Learning Capabilities designed to elevate the
+                            student experience, while staying organized and tracking academic progress, a custom app for
+                            your school</div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-2">Personalized Learning </h3>
+                        <div class="mb-2">Experience the future of learning with AI-powered assessments, personalized
+                            feedback, intelligent tutoring, and learning content recommendations, enabling every learner
+                            to understand their own learning process, grow at their own pace, and self-improve
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-2">Improved Academic Results</h3>
+                        <div class="mb-2">Students gain insights into their learning patterns and
+                            processes, developing a deeper understanding of their strengths and weaknesses. This enables
+                            them to identify and self-correct mistakes, leading to improved academic performance &
+                            higher grades
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="flex justify-center items-center py-6 px-6 off-white-bg">
+            <div
+                class="flex flex-col lg:flex-row gap-8 justify-center py-12 px-8 purple-bg rounded-2xl font-bigTitleCleanText w-full">
+                <div class="flex flex-1 flex-col gap-6 justify-center items-start">
+                    <h2 class="text-5xl text-white md:text-left">Join Our Mission</h2>
+                    <p class="text-xl text-slate-500 md:text-left">Be Part of the Global Shift to AI-Powered Education
+                        4.0 with NEXGEN
+                    </p>
+                    <a href="mailto:info@nexgenacademy.ae"
+                        class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32">Explore
+                        Our Custom Solutions
+                    </a>
+                </div>
+                <div class="flex flex-1 gap-6 items-center justify-center">
+                    <img class="w-32 h-32 rounded-full border-2 border-cyan-400" src="assets/images/favicon.png" alt="">
+                    alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center purple-bg text-white lg:text-left">
+
+
+        <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+        <div class="mx-6 py-10 text-center md:text-left">
+            <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
+                <!-- TW Elements section -->
+                <div class="flex items-center flex-col">
+                    <img src="assets/images/logo2.png" class="w-44 rounded-md mb-8" alt="">
+                    <!-- <p class="text-sm text-center">
+                        Leading the World’s Transition to Education 4.0
+                    </p> -->
+                </div>
+                <!-- Contact section -->
+                <div>
+                    <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                        Contact
+                    </h6>
+                    <!-- <p class="mb-4 flex items-center justify-center md:justify-start">
+                                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                                <path
+                                                    d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                            </svg>
+                                        </span>
+                                        New York, NY 10012, US
+                                    </p> -->
+                    <p class="mb-4 flex items-center justify-center md:justify-start">
+                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <a href="tel:+971558606201 ">+971 55 8606 201 </a>
+                    </p>
+                    <p class="mb-4 flex items-center justify-center md:justify-start">
+                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                <path
+                                    d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                            </svg>
+                        </span>
+                        <a href="mailto:info@nexgenacademy.ae">info@nexgenacademy.ae</a>
+                    </p>
+                    <!-- <p class="flex items-ce</a>nter justify-center md:justify-start">
+                                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                        + 01 234 567 89
+                                    </p> -->
+                </div>
+                <!-- Products section -->
+                <div>
+                    <!-- <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                        Products
+                    </h6> -->
+                    <p class="mb-4">
+                        <a href="#!">© All Rights Reserved</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!">Privacy Policy</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!">Terms of Use/Service</a>
+                    </p>
+                    <!-- <p>
+                        <a href="#!">Laravel</a>
+                    </p> -->
+                </div>
+                <!-- Useful links section -->
+                <div>
+                    <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                        News
+                    </h6>
+                    <p class="mb-4">
+                        <a href="#!">Article</a>
+                    </p>
+                    <!-- <p class="mb-4">
+                        <a href="#!">Article 2</a>
+                    </p> -->
+                    <!-- <p class="mb-4">
+                        <a href="#!">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p> -->
+                </div>
+                <div>
+                    <h6 class="mb-4 flex text-center justify-center font-semibold uppercase md:justify-start">
+                        Leading the World’s Transition to Education 4.0
+                    </h6>
+                    <p class="mb-4 text-center">
+                        Join our Education 4.0 Movement
+                    </p>
+                    <div class="flex justify-center">
+                        <a href="https://www.instagram.com/nexgenacademy.ae?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/share/b29WGiwSwW1wko5h/?mibextid=LQQJ4d"
+                            class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/nexgen-academyuae/about/"
+                            class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.youtube.com/@nexgen.academy" class="[&>svg]:h-4 [&>svg]:w-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- <p class="mb-4">
+                        <a href="#!">Article 2</a>
+                    </p> -->
+                    <!-- <p class="mb-4">
+                        <a href="#!">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p> -->
+                </div>
+
+            </div>
+        </div>
+
+        <!--Copyright section-->
+        <div class="bg-black/5 p-6 text-center">
+            <span>Powered by coursebox AI </span>
+            <!-- <a class="font-semibold" href="#"></a> -->
+        </div>
+    </footer>
+
+</body>
+
+</html>

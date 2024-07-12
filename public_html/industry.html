@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Industry 4.0 - Nexgen</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="styles.css">
+
+	<link href="https://fonts.cdnfonts.com/css/beatrice-display-trial" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap"
+		rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+	<script src="script4.js" defer></script>
+</head>
+
+<body class="overflow-x-hidden bg-white">
+	<header class="fixed top-0 left-0 right-0 z-40">
+		<div class="lg:py-4 lg:px-10 py-4">
+			<nav class="">
+				<div class="flex flex-wrap items-center justify-between mx-auto p-4">
+					<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+						<img src="assets/images/logo.png" class="h-8" alt="Nexgen Logo" />
+						<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+					</a>
+					<button data-collapse-toggle="navbar-default" type="button"
+						class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-10"
+						aria-controls="navbar-default" aria-expanded="false">
+						<span class="sr-only">Open main menu</span>
+						<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+							viewBox="0 0 17 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M1 1h15M5 7h15M9 13h15" />
+						</svg>
+					</button>
+					<div class="hidden w-full md:block md:w-auto" id="navbar-default">
+						<ul
+							class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent bg-gray-800">
+							<li>
+								<a href="index.html"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">Home</a>
+							</li>
+							<li>
+								<a href="education.html"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">Education 4.0</a>
+							</li>
+							<li>
+								<a href="ai.html"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">AI 4.0</a>
+							</li>
+							<li>
+								<a href="industry.html"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">Industry 4.0</a>
+							</li>
+							<li>
+								<a href="industry.html#mission"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">About us</a>
+							</li>
+							<li>
+								<a href="news.html"
+									class="block p-2 hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent"
+									aria-current="page">News</a>
+							</li>
+							<li>
+								<a href="mailto:info@nexgenacademy.ae"
+									class="block p-2 underline hover:text-cyan-400 text-white md:text-black transition duration-300 rounded md:bg-transparent text-center"
+									aria-current="page">AI-Powered Summer Camp:<br>Registration Open</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="industry" class="slidein flex flex-col h-screen justify-center snap-end">
+			<div
+				class="slidein text-container-wide font-fancyText flex text-4xl md:text-7xl text-center justify-around">
+				NEXGEN’S
+			</div>
+			<div class="slidein flex flex-col w-screen py-4">
+				<div class="relative mission md:py-30 md:px-10 flex flex-col items-center text-center pb-6">
+
+					<h2 class="font-bigTitleCleanText variable-fontsize-big font-medium w-full">
+						<span class="boujee-text relative"><span class="absolute boujee-text blur-md">Industry
+								4.0</span>Industry 4.0</span>
+					</h2>
+				</div>
+			</div>
+			<div class="slidein text-container-wide font-fancyText flex text-xl md:text-3xl text-center justify-around">
+				Bridging the Gap between Formal Academic<br class="hidden md:block">Education and Real-World Industry<br
+					class="hidden md:block">
+				Demands
+			</div>
+		</section>
+
+		<section id="about" class="relative flex flex-col justify-center snap-end">
+			<div
+				class="slidein text-container font-fancyText flex text-xl md:text-3xl text-center italic p-6 justify-around">
+				We Empower Progressive Schools to Elevate Their Students' Career Preparedness and Entrepreneurial Growth
+				Through:
+			</div>
+
+			<div class="md:block hidden about-images absolute w-full h-full top-0 left-0">
+				<div class="courses one"><img class="object-cover w-full" src="assets/images/courses1.jpg" /></div>
+				<div class="courses two"><img class="object-cover w-full" src="assets/images/courses2.jpg" /></div>
+				<div class="courses three"><img class="object-cover w-full" src="assets/images/courses3.jpg" /></div>
+				<div class="courses four"><img class="object-cover w-full" src="assets/images/courses4.jpg" /></div>
+
+				<div class="initiatives one"><img class="object-cover w-full" src="assets/images/initiatives1.jpg" />
+				</div>
+				<div class="initiatives two"><img class="object-cover w-full" src="assets/images/initiatives2.jpg" />
+				</div>
+				<div class="initiatives three"><img class="object-cover w-full" src="assets/images/initiatives3.jpg" />
+				</div>
+				<div class="initiatives four"><img class="object-cover w-full" src="assets/images/initiatives4.jpg" />
+				</div>
+
+				<div class="industry one"><img class="object-cover w-full" src="assets/images/industry1.jpg" /></div>
+				<div class="industry two"><img class="object-cover w-full" src="assets/images/industry2.jpg" /></div>
+				<div class="industry three"><img class="object-cover w-full" src="assets/images/industry3.jpg" /></div>
+				<div class="industry four"><img class="object-cover w-full" src="assets/images/industry4.jpg" /></div>
+			</div>
+
+			<div class="flex md:flex-row flex-col w-screen border-gray-300 border py-1 z-10">
+				<div
+					class="font-bigTitleCleanText about courses md:py-44 md:px-10 flex-1 text-center border-gray-300 border py-2 ">
+					<h2 class="variable-fontsize-big">Courses</h2>
+					<p class="text-base font-bold text-gray-500">Industry 4.0 Tech Education</p>
+					<p class="text-base font-bold text-gray-500">AI-Powered learning LMS</p>
+					<p class="text-base font-bold text-gray-500">Hands-on Project-Based Learning</p>
+					<p class="text-base font-bold text-gray-500">Animated lessons, Live Sessions,</p>
+					<p class="text-base font-bold text-gray-500">Multiple Tech Courses e.g. Data Analytics,</p>
+					<p class="text-base font-bold text-gray-500">Internet of Things & more</p>
+				</div>
+				<div
+					class="font-bigTitleCleanText about initiatives md:py-44 md:px-10 flex-1 text-center border-gray-300 border py-2">
+					<h2 class="variable-fontsize-big">Initiatives</h2>
+					<p class="text-base font-bold text-gray-500">Innovation Challenges,</p>
+					<p class="text-base font-bold text-gray-500">Hackathons, Workshops,</p>
+					<p class="text-base font-bold text-gray-500">Career Panels, Mentorships,</p>
+					<p class="text-base font-bold text-gray-500">Competitions, Industry Projects,</p>
+					<p class="text-base font-bold text-gray-500">& more</p>
+				</div>
+				<div
+					class="font-bigTitleCleanText about industry md:py-44 md:px-10 flex-1 text-center border-gray-300 border py-2">
+					<h2 class=" variable-fontsize-big">Industry</h2>
+					<p class="text-base font-bold text-gray-500">Internships, Capstone Projects</p>
+					<p class="text-base font-bold text-gray-500">Industry Certification Programs</p>
+					<p class="text-base font-bold text-gray-500">Entrepreneurial Mentorship Program</p>
+					<p class="text-base font-bold text-gray-500">Company visits, Guest speakers</p>
+					<p class="text-base font-bold text-gray-500">Pitch Competitions, Career guidance</p>
+				</div>
+			</div>
+			</div>
+			<div
+				class="slidein flex-col font-fancyText flex text-xl md:text-3xl text-center italic p-8 justify-around border-gray-300 border-b">
+				NEXGEN's Ecosystem Bridging Education 4.0 to Industry 4.0
+			</div>
+			<div class="mt-1 justify-around border-transparent border-b-gray-300 border"></div>
+		</section>
+
+		<section id="mission" class="flex flex-col justify-center my-24 snap-end">
+			<div
+				class="slidein text-container-wide font-fancyText flex text-2xl md:text-3xl text-center  justify-around">
+				NEXGEN Industry 4.0
+			</div>
+			<div class="slidein flex flex-col w-screen py-1">
+				<div class="relative mission px-4 md:py-30 md:px-10 flex-1 text-center pb-6">
+					<div class="fontlines2"></div>
+					<h2 class="font-bigTitleCleanText variable-fontsize-big-2 mb-8">Mission
+					</h2>
+					<p class="text-container text-xl md:text-2xl font-bigTitleCleanText">
+						To Empower Educational Institutions Globally to Align Academic
+						<br class="hidden xl:block">
+						Programs with Industry 4.0 demands, equipping students with the skills
+						<br class="hidden xl:block">
+						and practical experience to navigate the complexities of the
+						<br class="hidden xl:block">
+						AI-driven future
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="featuredin" class="flex justify-center items-center mb-24">
+			<div class="flex flex-col gap-12 justify-center items-center font-bigTitleCleanText">
+				<h2 class="text-5xl md:text-6xl font-bold">Featured In</h2>
+				<img src="assets/images/khaleejtimes.png" alt="Khaleej Times" class="md:w-4/5 lg:w-2/5 w-auto px-8">
+			</div>
+		</section>
+
+		<section class="flex justify-center items-center">
+			<div class="flex max-w-5xl flex-col gap-10 mx-8">
+				<div class="slidein flex gap-6 my-4 justify-center items-center">
+					<div class="flex flex-col gap-6 flex-1 font-bigTitleCleanText">
+						<h2 class="text-3xl md:text-4xl font-bold">NEXGEN’s Industry 4.0 <span
+								class="text-cyan-400">Ecosystem</span></h2>
+						<div class="flex gap-4 items-center">
+							<p class="text-xl md:text-2xl">NEXGEN Academy's Industry 4.0 courses, combined with Our
+								Industry-Partnered Initiatives provide students with a platform to apply their
+								theoretical knowledge of Industry 4.0 to practical, hands-on experiences, developing
+								future-ready skills, entrepreneurial mindset, industry exposure, and valuable Industry
+								certifications
+							</p>
+						</div>
+						<h2 class="text-3xl md:text-4xl font-bold italic">
+							Empowering Students for Excellence in<br><span class="text-cyan-400">the
+								Forthcoming AI-Powered Workforce</span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="timeline" class="flex justify-center items-center my-20">
+			<div class="flex flex-col justify-center items-center">
+				<div class="flex gap-8 flex-col justify-center items-center font-bigTitleCleanText text-center p-8">
+					<h2 class="text-4xl md:text-5xl font-bold">Career Readiness Oriented Learning<br
+							class="hidden xl:block">Framework</h2>
+					<p class="text-xl md:text-2xl mb-8">
+						Structured Career Development Programs Designed to<br class="hidden xl:block">
+						Equip Students for the Future of Work in the AI age & Industry 4.0
+					</p>
+				</div>
+
+				<div class="flex flex-col xl:flex-row justify-center items-center gap-16 xl:gap-6 p-6">
+					<div id="timeline-1" class="flex justify-center items-center font-bigTitleCleanText">
+						<div class="relative flex flex-1 gap-4 justify-center items-center flex-col text-center">
+							<p class="absolute font-extrabold text-9xl bottom-3/4 opacity-40 text-gray-400">01</p>
+							<img class="w-40 mt-6 z-10" src="assets/images/timeline1.png" alt="">
+							<h3 class="font-bold text-xl">Essential Digital Literacy</h3>
+							<p>
+								Upskilling in vital digital fluency & Industry 4.0 technologies to meet the requirements
+								of the modern workplace
+							</p>
+						</div>
+					</div>
+					<div id="timeline-2" class="flex justify-center items-center font-bigTitleCleanText">
+						<div class="relative flex flex-1 gap-4 justify-center items-center flex-col text-center">
+							<p class="absolute font-extrabold text-9xl bottom-3/4 opacity-40 text-gray-400">02</p>
+							<img class="w-40 mt-6 z-10" src="assets/images/timeline2.png" alt="">
+							<h3 class="font-bold text-xl">Engagement & Growth</h3>
+							<p>
+								Developing Career & Entrepreneurial skills through practical, hands-on experiences in
+								diverse initiatives, e.g., hackathons, competitions, Mentorship programs
+							</p>
+						</div>
+					</div>
+					<div id="timeline-3" class="flex justify-center items-center font-bigTitleCleanText">
+						<div class="relative flex flex-1 gap-4 justify-center items-center flex-col text-center">
+							<p class="absolute font-extrabold text-9xl bottom-3/4 opacity-40 text-gray-400">03</p>
+							<img class="w-40 mt-6 z-10" src="assets/images/timeline3.png" alt="">
+							<h3 class="font-bold">Industry Certifications</h3>
+							<p>
+								Students apply their acquired knowledge & skills in real-world industry challenges,
+								gaining practical experience, exposure & Certifications
+							</p>
+						</div>
+					</div>
+					<div id="timeline-4" class="flex justify-center items-center font-bigTitleCleanText">
+						<div class="relative flex flex-1 gap-4 justify-center items-center flex-col text-center">
+							<p class="absolute font-extrabold text-9xl bottom-3/4 opacity-40 text-gray-400">04</p>
+							<img class="w-40 mt-6 z-10" src="assets/images/timeline4.png" alt="">
+							<h3 class="font-bold">Future-Ready Professionals</h3>
+							<p>
+								Achieving comprehensive career preparedness, equipping students with the confidence,
+								certifications and skills to succeed in AI-Driven Industry 4.0
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="" class="flex flex-col justify-center my-24">
+			<div class="slidein flex flex-col w-screen py-1">
+				<div class="relative mission md:py-30 px-4 md:px-10 flex-1 text-center pb-6">
+					<h2 class="font-bigTitleCleanText variable-fontsize-big mb-8">
+						Education 4.0<br>
+						Core Principle
+					</h2>
+					<div class="fontlines5"></div>
+					<h3 class="font-bold text-2xl md:text-3xl mb-4">Student Development & Engagement Initiatives
+						Leading<br class="hidden xl:block">to Practical Real-World Industry Applications</h3>
+					<p class="text-container text-xl md:text-2xl font-bigTitleCleanText">
+						NEXGEN’s Industry 4.0 Ecosystem empowers students' holistic growth
+						<br class="hidden xl:block">
+						and development by providing a structured pathway to apply acquired
+						<br class="hidden xl:block">
+						knowledge in real-world settings. Through comprehensive student
+						<br class="hidden xl:block">
+						development initiatives and industry exposure, students acquire the
+						<br class="hidden xl:block">
+						skills needed to thrive in Industry 4.0 workforce
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="" class="flex flex-col justify-center items-center my-24">
+			<div class="flex flex-col gap-20 px-8 lg:flex-row-reverse justify-center items-center container">
+				<div class="flex flex-1 flex-col gap-8 justify-center items-center text-center">
+					<div class="flex flex-col flex-1">
+						<h2 class="text-4xl font-bold">Education 4.0:<br>Future-Centric Educational<br>System</h2>
+					</div>
+					<p class="text-sm md:text-2xl font-bigTitleCleanText">
+						Designed to Prepare Students for the Future of Work
+					</p>
+				</div>
+				<div class="flex flex-col gap-8 flex-1 justify-center items-center">
+					<div id="timeline-1" class="flex justify-center items-center">
+						<div class="flex flex-col gap-6 justify-center">
+							<div class="flex gap-6 items-center">
+								<img class="w-12" src="assets/images/aifeedback.svg" alt="">
+								<h3 class="text-xl font-bold">Phase 1 - Essential Digital Literacy & Technology
+									Upskilling
+								</h3>
+							</div>
+							<div class="flex gap-6 justify-center items-center">
+								<img class="flex justify-center items-center w-12" src="assets/images/aipowered.svg"
+									alt="">
+								<div class="flex flex-col gap-6 justify-center">
+									<p class="text-xl italic">Equipping students with the vital digital literacy</p>
+									<p class="text-xl"> Our comprehensive curriculum covers major future workforce
+										technologies,
+										providing hands-on experience through project-based learning, work-related
+										software
+										training
+										and AI-powered learning. This foundation equips students for real-world
+										application
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="timeline-2" class="flex justify-center items-center">
+						<div class="flex flex-col gap-6 justify-center">
+							<div class="flex gap-6 items-center">
+								<img class="w-12" src="assets/images/aifeedback.svg" alt="">
+								<h3 class="text-xl font-bold">Phase 2 - Student Development & Engagement Initiatives
+								</h3>
+							</div>
+							<div class="flex gap-6 justify-center items-center">
+								<img class="flex justify-center items-center w-12" src="assets/images/aipowered.svg"
+									alt="">
+								<div class="flex flex-col gap-6 justify-center">
+									<p class="text-xl italic">Developing Essential skills for the AI driven Future</p>
+									<p class="text-xl">We empower students to reach their full potential through diverse
+										initiatives designed to foster personal & professional growth, cultivating
+										necessary future workforce skills like adaptability, analytical thinking,
+										critical thinking & learning agility
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="timeline-3" class="flex justify-center items-center">
+						<div class="flex flex-col gap-6 justify-center">
+							<div class="flex gap-6 items-center">
+								<img class="w-12" src="assets/images/aifeedback.svg" alt="">
+								<h3 class="text-xl font-bold">Phase 3 - Industry Exposure & Entrepreneurial Growth
+								</h3>
+							</div>
+							<div class="flex gap-6 justify-center items-center">
+								<img class="flex justify-center items-center w-12" src="assets/images/aipowered.svg"
+									alt="">
+								<div class="flex flex-col flex-1 gap-6 justify-center">
+									<p class="text-xl italic">Applying Acquired Skills to Real-World Industry Challenges
+									</p>
+									<p class="text-xl">Students translate their skills into actionable solutions through
+										direct collaboration with the industry. By participating in Industry challenges,
+										innovative projects, mentorships students gain the Vital practical experience
+										and industry knowledge for Industry 4.0.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<section id="slideup" class="flex justify-center items-center my-20">
+			<div class="container flex flex-col justify-center items-center gap-5 max-w-7xl">
+				<h2 class="text-4xl xl:text-5xl font-bigTitleCleanText mb-4 font-bold tracking-wide text-center">
+					Education
+					4.0:<br>
+					Future-Centric Educational<br>
+					System
+				</h2>
+				<p class="text-2xl font-bigTitleCleanText mb-4 tracking-wide p-4 text-center">Designed to Prepare
+					Students for
+					the Future of Work
+					in the AI Age & Industry 4.0
+				</p>
+				<div id="slideup-1" class="flex-row-reverse md:flex-row flex justify-center items-center">
+					<div class="w-4/5 md:w-2/5 flex flex-col p-6">
+						<h2 class="text-2xl xl:text-3xl font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Essential Digital Literacy & Technology Upskilling
+						</h2>
+						<p class="text-xl text-cyan-400 italic font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Equipping students with the vital digital literacy
+						</p>
+						<p class="text-xl font-bigTitleCleanText mb-4 tracking-wide">Our comprehensive
+							curriculum covers major future workforce technologies, providing hands-on experience through
+							project-based learning, work-related software training and AI-powered learning. This
+							foundation equips students for real-world application
+						</p>
+					</div>
+					<div class="w-1/5 md:w-1/5 flex justify-center items-center">
+						<div
+							class="text-center content-center text-4xl font-bigTitleCleanText p-4 rounded-3xl text-cyan-400">
+							Phase<br>
+							01
+						</div>
+					</div>
+					<div class="w-2/5 justify-center items-center hidden  md:flex">
+						<img class="w-2/5" src="assets/images/coding.gif" alt="">
+					</div>
+				</div>
+				<div id="slideup-2" class="flex-row-reverse flex justify-center items-center">
+					<div class="w-4/5 md:w-2/5 flex flex-col p-6">
+						<h2 class="text-2xl xl:text-3xl font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Student Development & Engagement Initiatives
+						</h2>
+						<p class="text-xl text-cyan-400 italic font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Developing Essential skills for the AI driven Future
+						</p>
+						<p class="text-xl font-bigTitleCleanText mb-4 tracking-wide">We empower students to
+							reach their full potential through diverse initiatives designed to foster personal &
+							professional growth, cultivating necessary future workforce skills like adaptability,
+							analytical thinking, critical thinking, Human-AI Collaboration & learning agility
+						</p>
+					</div>
+					<div class="w-1/5 md:w-1/5 flex justify-center items-center">
+						<div
+							class="text-center content-center text-4xl font-bigTitleCleanText p-4 rounded-3xl text-cyan-400">
+							Phase<br>
+							02
+						</div>
+					</div>
+					<div class="w-2/5 justify-center items-center hidden  md:flex">
+						<img class="w-2/5" src="assets/images/presentation.gif" alt="">
+					</div>
+				</div>
+				<div id="slideup-3" class="flex-row-reverse md:flex-row flex justify-center items-center">
+					<div class="w-4/5 md:w-2/5 flex flex-col p-6">
+						<h2 class="text-2xl xl:text-3xl font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Industry Exposure & Entrepreneurial Growth
+						</h2>
+						<p class="text-xl text-cyan-400 italic font-bigTitleCleanText mb-4 font-bold tracking-wide">
+							Applying Acquired Skills to Real-World Industry Challenges
+						</p>
+						<p class="text-xl font-bigTitleCleanText mb-4 tracking-wide">Students translate their
+							skills into actionable solutions through direct collaboration with the industry. By
+							participating in Industry challenges, innovative projects, mentorships students gain the
+							Vital practical experience & insights, earning certifications to accelerate their careers
+							and enhance employability
+						</p>
+					</div>
+					<div class="w-1/5 md:w-1/5 flex justify-center items-center">
+						<div
+							class="text-center content-center text-4xl font-bigTitleCleanText p-4 rounded-3xl text-cyan-400">
+							Phase<br>
+							03
+						</div>
+					</div>
+					<div class="w-2/5 justify-center items-center hidden  md:flex">
+						<img class="w-2/5" src="assets/images/graduation.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="activities" class="relative h-52">
+			<div class="absolute flex justify-center items-center w-full h-full px-4">
+				<div class="absolute flex justify-center items-center bg-black opacity-60 w-full h-full">
+				</div>
+				<p class="text-white text-3xl font-bold z-50 text-center">Empowering Tomorrow's Leaders, Building
+					Our Nation's
+					Future
+				</p>
+			</div>
+		</section>
+
+		<section id="cards" class="flex flex-col gap-20 justify-center items-center pt-24 off-white-bg">
+
+			<h2 class="text-3xl font-bold px-6 text-center">Activities
+			</h2>
+
+			<div class="flex flex-col gap-8 justify-center items-center">
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/practice.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Innovation Challenges</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Cultivating the Innovators of the Future</h3>
+						<p class="text-base text-gray-600">Students collaborate to develop creative solutions to
+							real-world problems, fostering Creativity, Innovation, critical thinking, and teamwork
+							skills. They gain valuable hands-on experience in ideation, solution design, prototyping,
+							and pitching, building confidence and resilience along the way
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/vr-platform.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Hackathons</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Nurturing the Tech Entrepreneurs of Tomorrow</h3>
+						<p class="text-base text-gray-600">Students work intensively in teams to design, develop, and
+							deploy technology-based solutions within a short time frame. They gain hands-on experience
+							solution design, coding, project management, and rapid prototyping, fostering industry
+							understanding, business acumen, and cultivating an entrepreneurial mindset
+						</p>
+					</div>
+				</div>
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/trophy.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Competitions</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Empowering Future Leaders</h3>
+						<p class="text-base text-gray-600">Students participate in a variety of competitive events,
+							showcasing their talents and skills in a supportive environment. They receive feedback from
+							industry experts, network with peers and professionals, and gain valuable experience in
+							presentation and communication
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/leadership.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Career Panels</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Exploring Career Paths in the Age of AI</h3>
+						<p class="text-base text-gray-600">Hear from industry professionals about their career journeys,
+							challenges, and triumphs. Gain insights into diverse roles, emerging trends, and the skills
+							needed to succeed in the future workforce
+						</p>
+					</div>
+				</div>
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/synergy.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Industry Joint Projects</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Collaborating for Real-World Impact</h3>
+						<p class="text-base text-gray-600">Work alongside industry professionals on real projects,
+							applying your skills and knowledge to solve actual business challenges. Gain valuable
+							experience working in a team environment and collaborating with diverse stakeholders
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/business.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Workshops</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Mastering the Tools and Techniques of the Future</h3>
+						<p class="text-base text-gray-600">Participate in hands-on workshops led by industry experts to
+							develop practical skills and knowledge relevant to specific roles and industries. Learn
+							about the latest tools, technologies, and best practices in your field of interest
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="cards2" class="flex flex-col gap-20 justify-center items-center py-24 off-white-bg">
+
+			<h2 class="text-3xl font-bold px-6 text-center">Industry Exposure and Entrepreneurial Growth
+			</h2>
+
+			<div class="flex flex-col gap-8 justify-center items-center">
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/goal.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Capstone Projects</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Putting Knowledge into Practice</h3>
+						<p class="text-base text-gray-600">Collaborate with industry partners on real-world projects,
+							applying your skills and knowledge to solve complex challenges. Gain practical experience,
+							showcase your abilities, and build a portfolio of work that demonstrates your expertise
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/certificate.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Industry Certification Programs</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Validate Skills, Boost Student Career</h3>
+						<p class="text-base text-gray-600">Earn industry-recognized certifications that demonstrate your
+							proficiency in specific technologies, tools, or methodologies. Increase your achievements,
+							gain a competitive edge, and fast-track your career advancement
+						</p>
+					</div>
+				</div>
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/internship.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Internships</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Students Immerse in the World of Work</h3>
+						<p class="text-base text-gray-600">Gain hands-on experience in a professional setting, apply
+							your knowledge to practical tasks, and build valuable connections with industry mentors.
+							Develop essential skills and corporate world understanding
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/experience.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Entrepreneurial Mentorship Program</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Nurturing Student’s Entrepreneurial Spirit</h3>
+						<p class="text-base text-gray-600">
+							Receive personalized guidance from experienced entrepreneurs, learn the fundamentals of
+							business planning and development, and cultivate
+							the mindset needed to launch your own venture. Develop the entrepreneurial Mindset, skills
+							and build a network of support
+						</p>
+					</div>
+				</div>
+				<div class="container max-w-6xl px-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/speaker.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Expert Guest Speakers</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Learn from the Best in the Field</h3>
+						<p class="text-base text-gray-600">Hear from industry leaders and experts as they share their
+							knowledge, insights, and experiences. Expand your knowledge, gain new perspectives, and
+							network with influential figures to stay ahead of industry trends and advancements
+						</p>
+					</div>
+					<div
+						class="slidein flex flex-col flex-1 h-96 gap-4 justify-center bg-white rounded-xl shadow-2xl p-8">
+						<div class="flex flex-col gap-6 justify-center">
+							<img class="w-20" src="assets/images/office-building.png" alt="">
+							<h2 class="text-xl text-cyan-400 font-bold">Company Visits</h2>
+						</div>
+						<h3 class="italic font-bold text-gray-600">Experience the Workplace Firsthand</h3>
+						<p class="text-base text-gray-600">Visit leading companies and organizations to gain insights
+							into their culture & operations, discover potential career paths that align with your
+							interests and skills to make informed decisions about your future
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="vision" class="flex flex-col justify-center py-24 snap-end off-white-bg">
+			<div
+				class="slidein text-container-wide font-fancyText flex text-2xl md:text-3xl text-center  justify-around">
+				NEXGEN Industry 4.0
+			</div>
+			<div class="slidein flex flex-col w-screen py-1">
+				<div class="relative mission px-4 md:py-30 md:px-10 flex-1 text-center pb-6">
+					<div class="fontlines2"></div>
+					<h2 class="font-bigTitleCleanText variable-fontsize-big-2 mb-8">Vision
+					</h2>
+					<p class="text-container text-xl md:text-2xl font-bigTitleCleanText">
+						To Transform Global Education for the Fourth Industrial Revolution,
+						<br class="hidden xl:block">
+						Empowering Educational Institutions to Equip Learners with the Skills to
+						<br class="hidden xl:block">
+						Build a Future Where AI and Humanity Converge Harmoniously
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="cta" class="flex justify-center items-center py-6 px-6 off-white-bg">
+			<div
+				class="flex flex-col lg:flex-row gap-8 justify-center py-12 px-8 purple-bg rounded-2xl font-bigTitleCleanText w-full">
+				<div class="flex flex-1 flex-col gap-6 justify-center items-start">
+					<h2 class="text-5xl text-white md:text-left">Join Our Mission & Lead the Way in Student
+						Career Preparedness for the AI Age</h2>
+					<p class="text-xl text-slate-500 md:text-left">Take the next step towards academic
+						excellence by exploring our Partnered Student Development Initiatives designed to provide
+						hands-on
+						training and entrepreneurial experiences shaping the AI leaders of tomorrow
+					</p>
+					<a href="mailto:info@nexgenacademy.ae"
+						class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded min-w-32">Join
+						Now
+					</a>
+				</div>
+				<div class="flex flex-1 gap-4 items-center justify-center">
+					<img class="w-48 h-48 rounded-full border-2 border-cyan-400" src="assets/images/favicon.png" alt="">
+					<img class="w-48 h-48 rounded-full border-2 border-cyan-400" src="assets/images/unipreneurinc.jpg"
+						alt="">
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="text-center purple-bg text-white lg:text-left">
+
+
+		<!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+		<div class="mx-6 py-10 text-center md:text-left">
+			<div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
+				<!-- TW Elements section -->
+				<div class="flex items-center flex-col">
+					<img src="assets/images/logo2.png" class="w-44 rounded-md mb-8" alt="">
+					<!-- <p class="text-sm text-center">
+                        Leading the World’s Transition to Education 4.0
+                    </p> -->
+				</div>
+				<!-- Contact section -->
+				<div>
+					<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+						Contact
+					</h6>
+					<!-- <p class="mb-4 flex items-center justify-center md:justify-start">
+                                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                                <path
+                                                    d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                            </svg>
+                                        </span>
+                                        New York, NY 10012, US
+                                    </p> -->
+					<p class="mb-4 flex items-center justify-center md:justify-start">
+						<span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+								<path fill-rule="evenodd"
+									d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+									clip-rule="evenodd" />
+							</svg>
+						</span>
+						<a href="tel:+971558606201 ">+971 55 8606 201 </a>
+					</p>
+					<p class="mb-4 flex items-center justify-center md:justify-start">
+						<span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+								<path
+									d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+								<path
+									d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+							</svg>
+						</span>
+						<a href="mailto:info@nexgenacademy.ae">info@nexgenacademy.ae</a>
+					</p>
+					<!-- <p class="flex items-ce</a>nter justify-center md:justify-start">
+                                        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                        + 01 234 567 89
+                                    </p> -->
+				</div>
+				<!-- Products section -->
+				<div>
+					<!-- <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                        Products
+                    </h6> -->
+					<p class="mb-4">
+						<a href="#!">© All Rights Reserved</a>
+					</p>
+					<p class="mb-4">
+						<a href="#!">Privacy Policy</a>
+					</p>
+					<p class="mb-4">
+						<a href="#!">Terms of Use/Service</a>
+					</p>
+					<!-- <p>
+                        <a href="#!">Laravel</a>
+                    </p> -->
+				</div>
+				<!-- Useful links section -->
+				<div>
+					<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+						News
+					</h6>
+					<p class="mb-4">
+						<a href="#!">Article</a>
+					</p>
+					<!-- <p class="mb-4">
+                        <a href="#!">Article 2</a>
+                    </p> -->
+					<!-- <p class="mb-4">
+                        <a href="#!">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p> -->
+				</div>
+				<div>
+					<h6 class="mb-4 flex text-center justify-center font-semibold uppercase md:justify-start">
+						Leading the World’s Transition to Education 4.0
+					</h6>
+					<p class="mb-4 text-center">
+						Join our Education 4.0 Movement
+					</p>
+					<div class="flex justify-center">
+						<a href="https://www.instagram.com/nexgenacademy.ae?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+							class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+								<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+								<path
+									d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+							</svg>
+						</a>
+						<a href="https://www.facebook.com/share/b29WGiwSwW1wko5h/?mibextid=LQQJ4d"
+							class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
+								<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+								<path
+									d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+							</svg>
+						</a>
+						<a href="https://www.linkedin.com/company/nexgen-academyuae/about/"
+							class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+								<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+								<path
+									d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+							</svg>
+						</a>
+
+						<a href="https://www.youtube.com/@nexgen.academy" class="[&>svg]:h-4 [&>svg]:w-4">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+								viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+								<path
+									d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+							</svg>
+						</a>
+					</div>
+					<!-- <p class="mb-4">
+                        <a href="#!">Article 2</a>
+                    </p> -->
+					<!-- <p class="mb-4">
+                        <a href="#!">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p> -->
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+
+</html>
